@@ -57,10 +57,16 @@ public class KeyboardCommands {
 		
 	}
 	
+	@ShellMethod("Reset the Autocompletion Model and start over")
+	public String reset() {
+		ac.reset();
+		return "Autocompletion model cleared.";
+	}
+	
 	public Availability trainCheck() {
 		return ac.isTrained() /// this must be changed to a check for if the trie is set up somehow
 				? Availability.available()
-				: Availability.unavailable("Autocomplete not trained.");
+				: Availability.unavailable("Autocomplete is not trained.");
 	}
 	
 	public KeyboardCommands() {

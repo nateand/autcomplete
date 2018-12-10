@@ -1,11 +1,12 @@
 package keyboard.trie;
 
 import java.util.HashMap;
+import java.util.Map;
 
 // Class used to represent each node in the trie
 public class ACNode {
 	
-	private HashMap<Character,ACNode> children; // children nodes
+	private Map<Character,ACNode> children; // children nodes
 	private Integer count; // count (used to control frequency if it's a word)
 	private boolean isWord; // is it a word?
 	
@@ -26,12 +27,12 @@ public class ACNode {
 	}
 	
 	
-	public HashMap<Character, ACNode> getChildren() {
+	public Map<Character, ACNode> getChildren() {
 		return children;
 	}
 
 
-	public void setChildren(HashMap<Character, ACNode> children) {
+	public void setChildren(Map<Character, ACNode> children) {
 		this.children = children;
 	}
 

@@ -111,4 +111,9 @@ public class AutocompleteTrie {
 		return current;
 	}
 
+	public void resetTrie() {
+		
+		root = new ACNode();
+	}
+
 }

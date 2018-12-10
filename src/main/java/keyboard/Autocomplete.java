@@ -49,4 +49,9 @@ public class Autocomplete implements AutocompleteProvider {
 		return !trie.isEmpty();
 	}
 
+	public void reset() {
+		trie.resetTrie();
+				
+	}
+
 }

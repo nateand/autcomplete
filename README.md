@@ -10,6 +10,8 @@ This application is run from the command-line and accepts two commands (outside 
 train the model.
 - input: This command takes one string argument (ideally a string fragment) and will output a list of words that match it
 based on the trained model so far.
+- reset: This command takes no arguments and will clear the autocompletion model back to a clean state. This will remove all training and 
+words completely and cannot be undone.
 
 ## How it works
 This application uses Spring Shell to run as a fully featured command-line application with input/output. Using a Trie (prefix tree)
@@ -27,7 +29,31 @@ For example:
     "nee" --> "need" (1)
     $ input "th" 
     "th" --> "that" (2), "thing" (2), "the" (1), "third" (1), "this" (1), "think" (1), "thoroughly" (1)
+    $ reset
+    Autocompletion model cleared.
+    $ input "th"
+    Command 'input' exists but is not currently available because Autocomplete is not trained.
+    Details of the error have been omitted. You can use the stacktrace command to print the full stacktrace.
 
+## Confidence
+The Confidence is the likelihood/relevance of an individual word relative to the other words being returned by the autocomplete provider. If two words are equally likely, they should have the same confidence. If one is more likely, it should have a higher confidence.
+
+This means that in this application, the candidate with the lowest likelihood will always be valued at (1), and the value increases with more likely words.
+In the event where there is only one match, this match will always have confidence of (1), due it being the only result.
+
+For example:
+
+    $ train "Hello how are you"
+    Trained: Hello how are you
+    $ input h
+    "h" --> "hello" (1), "how" (1)
+    $ train hello
+    Trained: hello
+    $ input h
+    "h" --> "hello" (2), "how" (1)
+    $ input he
+    "he" --> "hello" (1)
+   
 
 ##  Instructions
 
