@@ -1,0 +1,226 @@
+1543947814816:hello
+1543947817561:help
+1543947825405:exit
+1543951972666:test
+1543951975443:help
+1543951977877:clear
+1543951978828:exit
+1543954727180:help
+1543954727999:exit
+1544016946351:input help
+1544016955284:train help
+1544016958533:help
+1544016966221:exit
+1544017045587:help
+1544017049245:input help
+1544017054108:input "hello how are you"
+1544017057397:input hello how are you
+1544017065537:train hello how are you
+1544017067356:train hello
+1544017071882:train "hello how are you"
+1544018696147:exiy
+1544018697294:exit
+1544018708771:input help
+1544018711138:train help
+1544018713009:exit
+1544019369287:help
+1544019371729:input test
+1544019377294:quit
+1544019527560:help
+1544019530102:input test
+1544019537015:stacktrace
+1544019580564:train test
+1544019583276:input test
+1544019586183:exit
+1544396411032:input help
+1544396431727:train hello
+1544396437199:input hello
+1544396441115:input hel
+1544396446527:input help
+1544396449409:train help
+1544396454219:input hel
+1544396476301:input hello
+1544396480665:train
+1544396494084:train "hello how are you"
+1544396499640:input hello
+1544396532540:exit
+1544396654624:train "hello how are you"
+1544396663590:train "hello this is a test"
+1544396669702:input hel
+1544396677700:input h
+1544396696601:train "this is a third thing and that thing is thunderous"
+1544396729772:input th
+1544396744073:train "the thing is then that and there"
+1544396747254:input th
+1544396903076:exit
+1544397073585:train "thin things think like then"
+1544397079972:input "th"
+1544397084627:exit
+1544397548992:input "hello"
+1544397563085:train "hello how are you peasant person this is a thing that thinks thin things"
+1544397572814:input "th"
+1544397606069:train "think that though thou must thee"
+1544397615180:input "th"
+1544397625367:exit
+1544397664055:input "though"
+1544397672130:train "trust me this is silly"
+1544397675835:input "me"
+1544397681469:input "t"
+1544397687873:input "trust"
+1544397693078:exit
+1544454181853:train "hello how are you"
+1544454186644:input "h"
+1544454406901:input "z"
+1544454685096:exit
+1544454699378:train "hello how are you"
+1544454701563:input "h"
+1544454711382:exit
+1544454722409:train "hello how are you"
+1544454724311:input "h"
+1544454822348:input
+1544454824870:input "z"
+1544454830147:train "z the z z"
+1544454833773:input "z"
+1544454835828:exit
+1544455199004:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544455204480:input "thi"
+1544455236032:exit
+1544455247018:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544455249906:input "thi"
+1544455257669:input "th"
+1544455285781:exit
+1544455358889:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544455361638:input "th"
+1544455399378:exit
+1544455412097:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544455415919:input "th"
+1544455504273:exit
+1544455515715:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544455518457:input "th"
+1544455521296:exit
+1544455590406:train "test test. test?"
+1544455593960:input "t"
+1544455639732:exit
+1544455654356:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544455657228:input "th"
+1544456522420:exit
+1544456594703:train "test test test temp tee"
+1544456597652:input "te"
+1544456605787:input "t"
+1544456613300:train "hello how high"
+1544456615396:input "h"
+1544456636717:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544456639450:input "th"
+1544456646872:input "t"
+1544456657531:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544456659160:input "t"
+1544456678724:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544456680058:input "t"
+1544456689010:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544456689988:input "t"
+1544456728010:train "z1 z2 z2 z3 z3 z3"
+1544456729851:input z
+1544456740962:train "z2 z2"
+1544456744193:input z
+1544456749018:exit
+1544457841837:train "c. c? cello!"
+1544457843423:input "c"
+1544457890716:train "c@"
+1544457894708:input "c"
+1544458000965:exit
+1544460320484:train "nate is a ho"
+1544460325928:train "nate is better than bobby"
+1544460328112:input "n"
+1544460332105:input "b"
+1544460339708:input "i"
+1544460387577:exit
+1544460403136:train "nate is better than a nanny and bobby"
+1544460406498:train "bobby is a ho"
+1544460408621:input "b"
+1544460466661:exit
+1544460479268:train "bobby is a bitch ho"
+1544460481856:input "b"
+1544460486704:train "bobby"
+1544460488897:input "b"
+1544460503469:input "nate is better than bobby"
+1544460508450:input "nate is the best"
+1544460515297:train "nate is better than bobby"
+1544460518292:train "nate is the best"
+1544460520141:input "n"
+1544460522434:input "b"
+1544460564960:exit
+1544460590176:train "nate is better than a nanny and bobby"
+1544460592532:train "bobby is a ho"
+1544460594503:input "b"
+1544460647188:train "better"
+1544460649102:input "b"
+1544460787862:exit
+1544460806038:train "better bobby better bobby"
+1544460807751:input "b"
+1544460812912:train "bozo"
+1544460814669:input "b"
+1544460819403:train "better"
+1544460822059:input b
+1544460831877:exit
+1544461474218:train " "
+1544461479115:input " "
+1544461481219:input
+1544461485375:input " "
+1544461500262:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544461502504:input " "
+1544461507796:input thi
+1544461521767:input nee
+1544461524585:input th
+1544461540302:train "that bobby is a ho"
+1544461544254:input that
+1544461546206:input th
+1544461553331:train nate
+1544461556439:input n
+1544461560362:train bobby
+1544461562346:input b
+1544461568976:train "bobby the bitch ass ho"
+1544461570771:input b
+1544461626702:exit
+1544464991245:input test
+1544464996404:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544464998569:input thi
+1544465004898:input nee
+1544465010448:input th
+1544465022332:train "nate is better than bobby at all things"
+1544465024346:input th
+1544465027287:input b
+1544465036254:input "bobby eats dirty things"
+1544465038257:input b
+1544465050768:train bobby
+1544465051818:input b
+1544465069335:input " "
+1544465074343:train " "
+1544465076959:input " "
+1544465213438:exit
+1544465224710:input " "
+1544465228463:train " "
+1544465231535:input " "
+1544465277816:exit
+1544465288151:train " "
+1544465447230:exit
+1544465457606:train " "
+1544465514019:exit
+1544465535298:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544465537494:input thi
+1544465541063:input nee
+1544465543187:input th
+1544465551395:train "bobby is a ho and has warts"
+1544465553012:input b
+1544465556922:train "bobby is a ho"
+1544465558479:input b
+1544465560048:input ho
+1544465570691:train "bobby the bunchy bitch is musty"
+1544465571785:input b
+1544465574731:exit
+1544465960335:train "hello how are you"
+1544465963835:input "hello how are you"
+1544466433814:train "The third thing that I need to tell you is that this thing does not think thoroughly."
+1544466468255:input thi
+1544466484790:input "nee"
+1544466510313:input "th"
+1544466732574:exit
