@@ -33,9 +33,10 @@ For example:
 
 This build requires a valid install of JDK8.
 
-    $ git clone https:/repo-path /path/to/repository
+    $ git clone https://github.com/nateand/autocomplete.git /path/to/repository
     $ cd /path/to/repository
     $ ./mvnw spring-boot:run
     
-This will open a command-line in which the commands explained above can be entered.    
+This will open a command-line in which the commands explained above can be entered. Maven will automatically install everything needed to run as
+specified by the included maven wrapper, and then it will run the application.
 
